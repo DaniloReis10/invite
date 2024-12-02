@@ -33,44 +33,42 @@ function App() {
             });
     };
 
-    return ( <
-        div className = "App" >
-        <
-        h2 > Confirme sua presença < /h2>
+    return ( 
+	<div className = "App">
+        <h2 > Confirme sua presença </h2>
 
-        { /* Imagem do convite */ } <
-        img src = "convite.jpeg"
-        alt = "Convite de Aniversário de Isabelle"
-        className = "invite-image" / >
+        { /* Imagem do convite */ } 
+        <img src = "convite.jpeg" alt = "Convite de Aniversário de Isabelle" className = "invite-image" />
 
-        { /* Título da Mensagem */ } <
-        div className = "message-title" > Mensagem da Isabelle < /div>
+        { /* Título da Mensagem */ } 
+        <div className = "message-title" > Mensagem da Isabelle </div>
 
-        { /* Mensagem da Isabelle */ } <
-        div className = "wishlist" >
-        <
-        div className = "wishlist-title" > Quero muito você na minha festa.E para facilitar, se quiser conhecer mais meu gosto, segue uma listinha: < /div> <
-        ul >
-        <
-        li > Sapato - 36 e Tamanho de roupa M < /li> <
-        li > Fone de Ouvido(Com fio, sem fio, bluetooth...) < /li> <
-        li > Caixinha de som < /li> <
-        li > Microfone com fio < /li> <
-        li > Câmera polaroid < /li> <
-        li > Acessórios de prata(anel, pulseira, brinco, colar) < /li> <
-        li > Perfumes Floratta e Tatty(Boticário) < /li> <
-        li > Tênis e Bota confortáveis < /li> <
-        li > Blusa do Brasil < /li> <
-            li > Camiseta do Brasil < /li> <
-                li > Roupa de academia(Camiseta, shorts, meias) < /li> <
-                li > Itens de academia(Bloco de yoga, barra, colchonete) < /li> <
-                li > Quebra - cabeça de 3.000 peças ou mais < /li> <
-                li > Itens para RPG(Tela de escudo de mestre, set de dados, mapas, miniaturas, livro de D & D)(Ex.Lojas: Leitura e Saraiva) < /li> <
-                li > Vale presente da Steam < /li> <
-                li > Material de pintura(quadro, tinta acrílica, pincéis, caneta posca...) < /li> <
-                li > Guitarra, Violino, amplificador(Não precisam ser novos) < /li> <
-                /ul> <
-                /div>
+        { /* Mensagem da Isabelle */ } 
+        <div className = "wishlist" >
+        <div className = "wishlist-title" > Quero muito você na minha festa.E para facilitar, se quiser conhecer mais meu gosto, segue uma listinha: </div> 
+        <ul>
+        <li> Sapato - 36 e Tamanho de roupa M </li> 
+        <li> Fone de Ouvido(Com fio, sem fio, bluetooth...) </li> 
+        <li> Caixinha de som </li> 
+        <li> Microfone com fio </li> 
+        <li> Refill da Câmera polaroid instax mini 12(Loja Kalunga)</li>
+        <li> Bolsa/estojo para a Câmera polaroid instax mini 12</li>
+        <li> Jaqueta de couro</li>
+        <li> Acessórios de prata(anel, pulseira, brinco, colar) </li> 
+        <li> Perfumes Floratta e Tatty(Boticário) </li> 
+        <li> Tênis e Bota confortáveis </li>  
+        <li> Blusa do Brasil </li> 
+        <li> Camiseta do Brasil </li> 
+        <li> Roupa de academia(Camiseta, shorts, meias) </li> 
+        <li> Itens de academia(Bloco de yoga, barra, colchonete) </li> 
+        <li> Quebra - cabeça de 3.000 peças ou mais < /li> 
+        <li> Quebra-cabeça de 5.000 peças ou mais</li>
+        <li> Itens para RPG(Tela de escudo de mestre, set de dados, mapas, miniaturas, livro de D & D)(Ex.Lojas: Leitura e Saraiva) </li> 
+        <li> Vale presente da Steam </li> 
+        <li> Material de pintura(quadro, tinta acrílica, pincéis, caneta posca...) </li> 
+       	<li > Guitarra, Violino, amplificador(Não precisam ser novos) </li> 
+	</ul> 
+        </div>
 
             <
             div className = "card" >
